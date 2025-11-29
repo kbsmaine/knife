@@ -1,12 +1,12 @@
-// Minimal interactions for Greyhollow v2
+// Simple JS just for mobile nav
 
 document.addEventListener('DOMContentLoaded', () => {
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.nav-links');
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav-links');
 
-    if (toggle && nav) {
-        toggle.addEventListener('click', () => {
-            nav.classList.toggle('is-open');
-        });
-    }
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('is-open');
+    });
+  }
 });

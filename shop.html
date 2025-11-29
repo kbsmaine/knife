@@ -1,158 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Arsenal | Greyhollow Steelworks</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/main.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Shop | Greyhollow Steelworks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-shop">
-<div class="page-noise"></div>
 <header class="site-header">
-    <div class="shell header-inner">
-        <a href="index.html" class="brand">
-            <span class="brand-mark-wrap">
-                <img src="assets/img/GHSW.png" alt="Greyhollow Steelworks Logo" class="brand-mark">
-            </span>
-            <div class="brand-text">
-                <span class="brand-name">GREYHOLLOW</span>
-                <span class="brand-subtitle">STEELWORKS</span>
-            </div>
-        </a>
-        <nav class="main-nav">
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="shop.html" class="is-active">ARSENAL</a></li>
-                <li><a href="about.html">THE HOLLOW</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="shell header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/img/GHSW.png" alt="Greyhollow Steelworks" class="brand-logo">
+      <div class="brand-text">
+        <span class="brand-name">Greyhollow Steelworks</span>
+        <span class="brand-tagline">Hard-use knives for real work.</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="is-active">Shop</a></li>
+        <li><a href="about.html">Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main>
-    <section class="page-banner page-banner--metal">
-        <div class="shell banner-inner">
-            <div>
-                <p class="label">FULL ARSENAL</p>
-                <h1>Hard-Use Blades in Active Rotation.</h1>
-            </div>
-            <p class="banner-note">
-                Once a run sells out, it moves to the **DEAD STOCK** ledger and doesn&apos;t return.
-            </p>
+  <section class="page-hero">
+    <div class="shell">
+      <h1>Shop knives</h1>
+      <p class="page-hero-text">
+        Current Greyhollow patterns available to order. When a run sells out, it goes into the archive.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell shop-layout">
+      <aside class="shop-filters">
+        <h2>Filter (static)</h2>
+        <div class="filter-group">
+          <p class="filter-label">Type</p>
+          <label><input type="checkbox" checked> Fixed blades</label>
+          <label><input type="checkbox" checked> Folders</label>
         </div>
-    </section>
-
-    <section class="section">
-        <div class="shell shop-layout">
-            <aside class="shop-filters">
-                <p class="label label--small">DIAL IN</p>
-                <div class="filter-group">
-                    <p class="filter-heading">PLATFORM</p>
-                    <label><input type="checkbox" checked> Fixed</label>
-                    <label><input type="checkbox" checked> Folder</label>
-                    <label><input type="checkbox"> Limited / Collab</label>
-                </div>
-                <div class="filter-group">
-                    <p class="filter-heading">ROLE</p>
-                    <label><input type="checkbox" checked> EDC</label>
-                    <label><input type="checkbox"> Field / Bushcraft</label>
-                    <label><input type="checkbox"> Entry / Defensive</label>
-                </div>
-                <div class="filter-group">
-                    <p class="filter-heading">BAND</p>
-                    <label><input type="radio" name="price"> Under $100</label>
-                    <label><input type="radio" name="price" checked> $100–$200</label>
-                    <label><input type="radio" name="price"> $200+</label>
-                </div>
-                <button class="btn btn-disabled">FILTER (STATIC MOCK)</button>
-                <p class="filter-footnote">
-                    Hook these toggles into your platform (Shopify, Woo, custom) when you go live.
-                </p>
-            </aside>
-
-            <div class="shop-main">
-                <div class="shop-toolbar">
-                    <span>Showing 6 active blades</span>
-                    <select>
-                        <option>Sort: Featured</option>
-                        <option>Sort: Price (Low → High)</option>
-                        <option>Sort: Price (High → Low)</option>
-                        <option>Sort: Newest</option>
-                    </select>
-                </div>
-
-                <div class="product-grid product-grid--shop">
-                    <article class="product-card">
-                        <div class="knife-tag knife-tag--red">FIELD</div>
-                        <h3 class="product-title">GRAVEBORN RECON</h3>
-                        <p class="product-meta">HOLLOW SERIES / 8.5&quot; TANTO</p>
-                        <p class="product-price">$189</p>
-                        <a href="product.html" class="btn btn-ghost-small">VIEW BLADE</a>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="knife-tag knife-tag--outline">EDC</div>
-                        <h3 class="product-title">NIGHTJAW FOLDER</h3>
-                        <p class="product-meta">GHOST TANTO / 3.4&quot; FOLDER</p>
-                        <p class="product-price">$129</p>
-                        <a href="product.html" class="btn btn-ghost-small">VIEW BLADE</a>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="knife-tag knife-tag--outline">URBAN</div>
-                        <h3 class="product-title">BACK ALLEY</h3>
-                        <p class="product-meta">SLIM FIXED / CONCEALMENT RIG</p>
-                        <p class="product-price">$139</p>
-                        <a href="product.html" class="btn btn-ghost-small">VIEW BLADE</a>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="knife-tag knife-tag--red">LIMITED</div>
-                        <h3 class="product-title">HOLLOW CROWN</h3>
-                        <p class="product-meta">BOWIE / SERIALIZED RUN</p>
-                        <p class="product-price">$249</p>
-                        <a href="product.html" class="btn btn-ghost-small">VIEW BLADE</a>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="knife-tag knife-tag--outline">FIELD</div>
-                        <h3 class="product-title">RUINWALKER</h3>
-                        <p class="product-meta">7.1&quot; FIELD KNIFE</p>
-                        <p class="product-price">$179</p>
-                        <a href="product.html" class="btn btn-ghost-small">VIEW BLADE</a>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="knife-tag knife-tag--outline">DROP</div>
-                        <h3 class="product-title">NULL SIGNAL</h3>
-                        <p class="product-meta">REVERSE TANTO / 3.7&quot;</p>
-                        <p class="product-price">$199</p>
-                        <a href="product.html" class="btn btn-ghost-small">VIEW BLADE</a>
-                    </article>
-                </div>
-            </div>
+        <div class="filter-group">
+          <p class="filter-label">Price</p>
+          <label><input type="radio" name="price"> Under $100</label>
+          <label><input type="radio" name="price" checked> $100–$200</label>
+          <label><input type="radio" name="price"> $200+</label>
         </div>
-    </section>
+        <p class="filter-note">These controls are placeholders you can hook into a real store later.</p>
+      </aside>
+
+      <div class="shop-products">
+        <div class="product-grid">
+          <article class="product-card">
+            <h3 class="product-name">Graveborn Recon</h3>
+            <p class="product-type">Tactical fixed blade · 8.5&quot;</p>
+            <p class="product-price">$189</p>
+            <a href="product.html" class="btn ghost small">View details</a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-name">Nightjaw Folder</h3>
+            <p class="product-type">EDC folder · 3.4&quot;</p>
+            <p class="product-price">$129</p>
+            <a href="product.html" class="btn ghost small">View details</a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-name">Back Alley</h3>
+            <p class="product-type">Slim fixed · concealment rig</p>
+            <p class="product-price">$139</p>
+            <a href="product.html" class="btn ghost small">View details</a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-name">Hollow Crown</h3>
+            <p class="product-type">Bowie · limited run</p>
+            <p class="product-price">$249</p>
+            <a href="product.html" class="btn ghost small">View details</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
-    <div class="shell footer-inner">
-        <div class="footer-left">
-            <p class="footer-brand">GREYHOLLOW STEELWORKS</p>
-            <p class="footer-copy">BORN IN THE DARK CORNERS OF THE MAP.</p>
-        </div>
-        <div class="footer-links">
-            <a href="shop.html">ARSENAL</a>
-            <a href="about.html">THE HOLLOW</a>
-            <a href="contact.html">CONTACT</a>
-        </div>
+  <div class="shell footer-inner">
+    <div>
+      <p class="footer-brand">Greyhollow Steelworks</p>
+      <p class="footer-copy">Built small-batch with a focus on use, not hype.</p>
     </div>
+    <div class="footer-links">
+      <a href="shop.html">Shop</a>
+      <a href="about.html">Story</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
