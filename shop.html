@@ -1,109 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Shop | Greyhollow Steelworks</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/js/main.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Shop | Granite Ridge Supply</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="page-shop">
-<header class="site-header">
-  <div class="shell header-inner">
-    <a href="index.html" class="brand">
-      <img src="assets/img/GHSW.png" alt="Greyhollow Steelworks" class="brand-logo">
-      <div class="brand-text">
-        <span class="brand-name">Greyhollow Steelworks</span>
-        <span class="brand-tagline">Hard-use knives for real work.</span>
-      </div>
-    </a>
-    <nav class="nav">
-      <button class="nav-toggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="shop.html" class="is-active">Shop</a></li>
-        <li><a href="about.html">Story</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+<body>
+
+<header>
+    <h1>Granite Ridge Supply</h1>
 </header>
 
-<main>
-  <section class="page-hero">
-    <div class="shell">
-      <h1>Shop knives</h1>
-      <p class="page-hero-text">
-        Current Greyhollow patterns available to order. When a run sells out, it goes into the archive.
-      </p>
-    </div>
-  </section>
+<section>
+    <h2>Shop Tactical Blades</h2>
+    <div id="product-container" class="product-grid"></div>
+</section>
 
-  <section class="section">
-    <div class="shell shop-layout">
-      <aside class="shop-filters">
-        <h2>Filter (static)</h2>
-        <div class="filter-group">
-          <p class="filter-label">Type</p>
-          <label><input type="checkbox" checked> Fixed blades</label>
-          <label><input type="checkbox" checked> Folders</label>
-        </div>
-        <div class="filter-group">
-          <p class="filter-label">Price</p>
-          <label><input type="radio" name="price"> Under $100</label>
-          <label><input type="radio" name="price" checked> $100–$200</label>
-          <label><input type="radio" name="price"> $200+</label>
-        </div>
-        <p class="filter-note">These controls are placeholders you can hook into a real store later.</p>
-      </aside>
-
-      <div class="shop-products">
-        <div class="product-grid">
-          <article class="product-card">
-            <h3 class="product-name">Graveborn Recon</h3>
-            <p class="product-type">Tactical fixed blade · 8.5&quot;</p>
-            <p class="product-price">$189</p>
-            <a href="product.html" class="btn ghost small">View details</a>
-          </article>
-          <article class="product-card">
-            <h3 class="product-name">Nightjaw Folder</h3>
-            <p class="product-type">EDC folder · 3.4&quot;</p>
-            <p class="product-price">$129</p>
-            <a href="product.html" class="btn ghost small">View details</a>
-          </article>
-          <article class="product-card">
-            <h3 class="product-name">Back Alley</h3>
-            <p class="product-type">Slim fixed · concealment rig</p>
-            <p class="product-price">$139</p>
-            <a href="product.html" class="btn ghost small">View details</a>
-          </article>
-          <article class="product-card">
-            <h3 class="product-name">Hollow Crown</h3>
-            <p class="product-type">Bowie · limited run</p>
-            <p class="product-price">$249</p>
-            <a href="product.html" class="btn ghost small">View details</a>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="shell footer-inner">
-    <div>
-      <p class="footer-brand">Greyhollow Steelworks</p>
-      <p class="footer-copy">Built small-batch with a focus on use, not hype.</p>
-    </div>
-    <div class="footer-links">
-      <a href="shop.html">Shop</a>
-      <a href="about.html">Story</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
-</footer>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
